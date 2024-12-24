@@ -21,19 +21,19 @@ function App() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <ProjectCard 
               title="Kwadai Foods"
-              description="E-commerce platform with responsive design and modern UI"
+              description="A comprehensive food ordering system that enables customers to browse menus, place orders, and track deliveries in real-time. Features include user authentication, payment integration, and order management."
               link="http://kwadaifoods.ng"
               tech={["React", "Tailwind CSS", "Framer Motion"]}
             />
             <ProjectCard 
-              title="AMS Dashboard"
-              description="Asset management dashboard with rich data visualization"
-              link="http://ams.suntecnig.ng"
-              tech={["React", "Material UI", "Chart.js"]}
+              title="Edstream"
+              description="A robust school management system that streamlines administrative tasks, student records, and academic processes. Includes features for attendance tracking, grade management, and parent-teacher communication."
+              link="http://edstream.ng"
+              tech={["React", "Tailwind CSS", "Framer Motion"]}
             />
             <ProjectCard 
               title="Muaga"
-              description="Real estate platform with dynamic search and filtering"
+              description="A modern software development company website showcasing services, portfolio, and team expertise. Implements dynamic content management and seamless client communication channels."
               link="http://muaga.ng"
               tech={["Next.js", "Tailwind CSS", "React Query"]}
             />
@@ -57,14 +57,26 @@ function App() {
             <ExperienceCard 
               title="Frontend Developer"
               company="SunTec Nigeria"
-              period="2022 - Present"
-              description="Led frontend development of enterprise web applications, focusing on responsive design and performance optimization"
+              period="2024 - Present"
+              description="Led frontend development of enterprise web applications, implementing responsive designs and optimizing performance. Collaborated with cross-functional teams to deliver high-quality solutions while maintaining code quality and documentation standards."
+            />
+            <ExperienceCard 
+              title="Frontend Engineer"
+              company="Muaga"
+              period="2024 - Date"
+              description="Spearheaded the development of customer-facing web applications using React and modern frontend technologies. Implemented state management solutions, optimized application performance, and established coding standards for the team."
+            />
+            <ExperienceCard 
+              title="Frontend Engineer"
+              company="Edstream"
+              period="2024 - Date"
+              description="Engineered robust frontend solutions for an educational platform using React and modern web technologies. Implemented responsive designs, integrated third-party APIs, and optimized application performance for improved user experience."
             />
             <ExperienceCard 
               title="Frontend Engineer"
               company="Kwadai Foods"
-              period="2021 - 2022"
-              description="Developed and maintained the customer-facing web application using React and modern frontend technologies"
+              period="2022 - 2024"
+              description="Developed and maintained a scalable food ordering platform using React and modern frontend technologies. Implemented real-time order tracking, payment integrations, and responsive designs while ensuring optimal performance and user experience."
             />
           </div>
         </section>
