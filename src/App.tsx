@@ -98,11 +98,10 @@ function App() {
             <Terminal className="w-8 h-8 text-blue-400" />
             <h2 className="text-3xl font-bold text-white">Skills</h2>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             <SkillCard title="Frontend" skills={["React", "Next.js", "Vue.js", "Flutter"]} />
-            <SkillCard title="Backend" skills={["Node.js", "Express", "NestJS", "Laravel"]} />
-            <SkillCard title="Database" skills={["PostgreSQL", "MongoDB", "MySQL", "Redis"]} />
-            <SkillCard title="DevOps" skills={["Docker", "AWS", "CI/CD", "Linux"]} />
+            <SkillCard title="Languages" skills={["JavaScript", "TypeScript", "HTML", "CSS"]} />
+            <SkillCard title="Tools & Libraries" skills={["Git", "Tailwind CSS", "Redux", "REST APIs"]} />
           </div>
         </section>
 
@@ -114,16 +113,40 @@ function App() {
           </div>
           <div className="space-y-8">
             <ExperienceCard 
-              title="Full Stack Developer"
-              company="SunTec Nigeria"
-              period="2022 - Present"
-              description="Led development of enterprise applications and mentored junior developers"
+              title="Senior Developer I"
+              company="Suntecnig"
+              period="2024 - Present"
+              description="Developed a scalable asset management system for Katsina State Asset Management Agency. Improved UI/UX by implementing modern design principles and ensuring mobile responsiveness. Mentored junior developers in the frontend team, enhancing project delivery quality."
             />
             <ExperienceCard 
-              title="Software Engineer"
+              title="Senior Frontend Developer"
               company="Kwadai Foods"
-              period="2021 - 2022"
-              description="Built and maintained e-commerce platform and delivery system"
+              period="2023 - Present"
+              description="Designed and implemented a user-friendly system to streamline food management operations (kwadaifoods.ng). Built frontend components using React and Tailwind CSS for performance optimization."
+            />
+            <ExperienceCard 
+              title="Frontend Developer"
+              company="Edstream"
+              period="2024 - Present"
+              description="Designed and implemented a user-friendly School management System operation (edstream.ng). Built frontend components using React and Tailwind CSS for performance optimization."
+            />
+            <ExperienceCard 
+              title="Frontend Developer"
+              company="Muaga Limited"
+              period="2024 - Present"
+              description="Designed and launched the company's e-commerce platform (muaga.ng), optimizing performance and accessibility. Integrated RESTful APIs to ensure seamless communication between the client and server."
+            />
+            <ExperienceCard 
+              title="Frontend Developer"
+              company="Digikat"
+              period="2023 - 2024"
+              description="Led the development of 'Digital Katsina,' a platform and mobile app for digitizing the state's records. Utilized modern frameworks to develop modular and reusable UI components."
+            />
+            <ExperienceCard 
+              title="Junior Developer"
+              company="Lumilab"
+              period="2018 - 2020"
+              description="Assisted in the development of dynamic web applications and gained foundational experience in React and JavaScript."
             />
           </div>
         </section>
